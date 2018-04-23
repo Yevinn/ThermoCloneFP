@@ -1,7 +1,8 @@
 body {
   font-family: "futura-pt",sans-serif;
   color: #6C6E71;
-  font-size: 20px; }
+  font-size: 20px;
+  text-transform: uppercase; }
 
 h2 {
   font-family: "futura-pt",sans-serif;
@@ -9,8 +10,15 @@ h2 {
   font-size: 72px;
   margin-top: 21px; }
 
+h3 {
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
 nav {
-  background-color: #603173;
+  background-color: #622F7E;
   height: 85px;
   position: fixed;
   z-index: 200;
@@ -34,7 +42,8 @@ a.btn {
 
 main {
   padding-top: 85px;
-  background: linear-gradient(#EA973D, #E06A37); }
+  background: linear-gradient(#EA973D, #E06A37);
+  text-transform: none; }
 
 .video {
   margin: 40px auto; }
@@ -44,9 +53,12 @@ main h1 {
   margin: 50px auto 77px;
   width: 365px; }
 
+.white-section {
+  text-transform: none; }
+
 .urple {
   font-weight: bold;
-  color: #603173; }
+  color: #622F7E; }
 
 .product1 {
   width: 434px;
@@ -71,3 +83,31 @@ main h1 {
     transform: translateY(30px); }
   60% {
     transform: translateY(15px); } }
+
+.urple-bg {
+  background-color: #622F7E;
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px; }
+
+.number-crunch {
+  margin-top: 85px; }
+
+.urple-bg h4 {
+  font-weight: 300;
+  line-height: 41px; }
+
+.text-sm {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-top: 50px; }
+
+.text-xs {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 300; }
+
+.clock {
+  float: left;
+  margin-bottom: 30px; }
