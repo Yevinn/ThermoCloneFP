@@ -16,3 +16,7 @@ nav {
   padding: 8px 0;
   float: right;
   margin-top: 20px; }
+
+a.btn {
+  color: #ffffff;
+  text-decoration: none; }
