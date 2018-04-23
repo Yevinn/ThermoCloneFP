@@ -1,3 +1,14 @@
+body {
+  font-family: "futura-pt",sans-serif;
+  color: #6C6E71;
+  font-size: 20px; }
+
+h2 {
+  font-family: "futura-pt",sans-serif;
+  color: #EF7C05;
+  font-size: 72px;
+  margin-top: 21px; }
+
 nav {
   background-color: #603173;
   height: 85px;
@@ -20,3 +31,43 @@ nav {
 a.btn {
   color: #ffffff;
   text-decoration: none; }
+
+main {
+  padding-top: 85px;
+  background: linear-gradient(#EA973D, #E06A37); }
+
+.video {
+  margin: 40px auto; }
+
+main h1 {
+  display: block;
+  margin: 50px auto 77px;
+  width: 365px; }
+
+.urple {
+  font-weight: bold;
+  color: #603173; }
+
+.product1 {
+  width: 434px;
+  display: block;
+  margin: -35px auto 25px; }
+
+.arrow {
+  width: 40px;
+  display: block;
+  margin: 0 auto 50px; }
+
+.bounce {
+  transition: all 0.3s ease-in-out .4s;
+  -moz-animation: bounce 1.6s infinite;
+  -webkit-animation: bounce 1.6s infinite;
+  animation: bounce 1.6s infinite; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(30px); }
+  60% {
+    transform: translateY(15px); } }
