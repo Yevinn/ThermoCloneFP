@@ -1,0 +1,29 @@
+//Variables
+
+$maincolor: #603173;
+$maincolor-light: #7C36A3;
+$secondarycolor: #EF7C05;
+$secondarycolor-light: #F09330;
+$copy-color: #6C6E71;
+$wh: #ffffff;
+
+nav{
+  background-color: $maincolor;
+  height: 85px;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  color: $wh;
+}
+.header-logo{
+  margin-top: 20px;
+  width: 118px;
+}
+.header-btn{
+  background-color: $secondarycolor;
+  width: 142px;
+  padding: 8px 0;
+  float: right;
+  margin-top: 20px;
+}
+

@@ -9,6 +9,19 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/images": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/images",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2021,7 +2034,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules, \/images",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

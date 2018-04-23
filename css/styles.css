@@ -1,0 +1,18 @@
+nav {
+  background-color: #603173;
+  height: 85px;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  color: #ffffff; }
+
+.header-logo {
+  margin-top: 20px;
+  width: 118px; }
+
+.header-btn {
+  background-color: #EF7C05;
+  width: 142px;
+  padding: 8px 0;
+  float: right;
+  margin-top: 20px; }
