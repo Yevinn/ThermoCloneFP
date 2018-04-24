@@ -147,3 +147,16 @@ b {
 
 hr {
   border-top: 1px solid #ffffff; }
+
+.space-100 {
+  padding-top: 100px; }
+
+.spaceright-150 {
+  padding-left: 150px; }
+
+.width-700 {
+  width: 500px; }
+
+.left {
+  float: left;
+  margin-left: 150px; }
