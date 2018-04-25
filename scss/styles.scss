@@ -2,7 +2,8 @@
 
 $maincolor: #622F7E;
 $maincolor-light: #7C36A3;
-$secondarycolor: #EF7C05;
+$secondarycolor: rgba(239, 124, 5, 1.0);
+$secondarycolor-hover: rgba(239, 124, 5, .8);
 $secondarycolor-light: #F09330;
 $copy-color: #6C6E71;
 $wh: #ffffff;
@@ -16,7 +17,7 @@ body{
 h2{
   font-family: "futura-pt",sans-serif;
   color: $secondarycolor;
-  font-size: 72px;
+  font-size: 58px;
   margin-top: 21px;
 }
 h3{
@@ -33,17 +34,27 @@ nav{
   z-index: 200;
   width: 100%;
   color: $wh;
+  border-bottom: 1px solid $wh;
 }
 .header-logo{
   margin-top: 20px;
   width: 118px;
 }
 .header-btn{
+  float: right;
+}
+.footer-btn{
+  display: block;
+  margin: 0 auto;
+}
+.btn{
   background-color: $secondarycolor;
   width: 142px;
   padding: 8px 0;
-  float: right;
   margin-top: 20px;
+}
+.btn:hover{
+  background-color: $secondarycolor-hover;
 }
 a.btn{
   color: $wh;
@@ -73,7 +84,7 @@ main h1{
 .product1{
   width: 434px;
   display: block;
-  margin: -35px auto 25px;
+  margin: 32px auto;
 }
 
 .arrow{
@@ -99,12 +110,23 @@ main h1{
    transform: translateY(15px);
  }
 }
+.font-32{
+  font-size: 20px;
+  line-height: 24px;
+}
 
+.font-20{
+  font-size: 20px;
+  line-height: 22px;
+}
+.font-18{
+  font-size: 17px;
+  line-height: 22px;
+}
 .urple-bg{
   background-color: $maincolor;
   color: $wh;
   text-align: center;
-  font-size: 36px;
 }
 .number-crunch{
   margin-top: 85px;
@@ -175,6 +197,9 @@ hr{
 .space-100{
   padding-top: 100px; 
 }
+.mobile-space-100{
+  margin-top: 50px;
+}
 .spaceright-150{
   padding-left: 150px;
 }
@@ -183,5 +208,128 @@ hr{
 }
 .left{
   float: left;
-  margin-left: 150px;
+  margin-left: 50px;
+}
+.logo-bottom{
+  width: 226px;
+  margin: 40px 0 80px;
+}
+.cta-section{
+  text-transform: none;
+}
+.cta-product{
+  width: 435px;
+}
+/* Footer CSS */
+
+.footer-bg{
+  display:none;
+  width: 100%;
+}
+.footer-content{
+  padding: 25px 0;
+  background-color:#63666B;
+  margin-top: -1px;
+}
+.UltraLogo{
+ width: 330px;
+ display: block;
+ margin: 25px auto;
+}
+footer p{
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+// Video Styles
+
+
+.youtube-player {
+       position: relative;
+       padding-bottom: 56.23%;
+       /* Use 75% for 4:3 videos */
+       height: 0;
+       overflow: hidden;
+       max-width: 100%;
+       background: #000;
+       margin: 40px auto;        
+   }
+
+   .youtube-player iframe {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       z-index: 1;
+       background: transparent;
+   }
+
+   .youtube-player img {
+       bottom: 0;
+       display: block;
+       left: 0;
+       margin: auto;
+       max-width: 100%;
+       width: 100%;
+       position: absolute;
+       right: 0;
+       top: 0;
+       border: none;
+       height: auto;
+       cursor: pointer;
+       -webkit-transition: .4s all;
+       -moz-transition: .4s all;
+       transition: .4s all;
+   }
+
+   .youtube-player img:hover {
+       -webkit-filter: brightness(75%);
+   }
+
+   .youtube-player .play {
+       height: 72px;
+       width: 72px;
+       left: 50%;
+       top: 50%;
+       margin-left: -36px;
+       margin-top: -36px;
+       position: absolute;
+
+       cursor: pointer;
+   }
+
+@media screen and (min-width:992px){
+  .footer-bg{
+      display:block;
+  }
+  h2{
+    font-size: 72px;
+  }
+  .product1 {
+    width: 434px;
+    display: block;
+    margin: -35px auto 25px;
+  }
+  .UltraLogo{
+      margin: -75px auto 100px;
+  }
+  .mobile-space-100{
+    margin: 0;
+  }
+  .font-32{
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .left{
+    margin-left: 150px;
+  }
+}
+@media screen and (min-width:1200px){
+  .UltraLogo{
+      margin: -100px auto 100px;
+  }
 }
